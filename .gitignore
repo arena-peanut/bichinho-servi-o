@@ -1,2 +1,6 @@
 env/*
 .idea/*
+
+.cache/
+__pycache__/
+hello.pyc
