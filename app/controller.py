@@ -13,9 +13,9 @@ def index():
 def create_bichinhos():
     file = request.get_json()
     if insert(file):
-        return jsonify({"message": "bichinho criado com sucesso"})
+        return jsonify({"message": "bichinho successfully created"})
     else:
-        return jsonify({"message": "não foi possível criar seu bichinho com sucesso"})
+        return jsonify({"message": "it was not possible to create the bichinho"})
 
 
 if __name__ == '__main__':
