@@ -9,3 +9,5 @@ app/*.pyc
 test/.cache/
 test/__pycache__/
 test/*.pyc
+
+.cache
