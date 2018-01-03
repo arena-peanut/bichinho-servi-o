@@ -5,11 +5,9 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - cd test
   - pytest
 deploy:
   provider: heroku
   api_key:
     secure: "2d728926-7172-4c62-8a77-c3672189525e"
     app: bichinho-service
-
