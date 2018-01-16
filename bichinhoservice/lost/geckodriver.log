@@ -1,0 +1,275 @@
+1515807784670	geckodriver	INFO	geckodriver 0.19.1
+1515807784674	geckodriver	INFO	Listening on 127.0.0.1:51447
+1515807786133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7eAxArZ9wLaA"
+1515807786891	Marionette	INFO	Enabled via --marionette
+1515807788492	Marionette	INFO	Listening on port 33549
+1515807788546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515807788614	Marionette	DEBUG	Register listener.js for window 2147483649
+1515807788626	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515807788658	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515807788659	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515807788660	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515807788702	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+
+(firefox:14169): GLib-GIO-WARNING **: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1515807907372	geckodriver	INFO	geckodriver 0.19.1
+1515807907376	geckodriver	INFO	Listening on 127.0.0.1:40215
+1515807908499	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2Eyki1CXsz13"
+1515807908842	Marionette	INFO	Enabled via --marionette
+1515807909787	Marionette	INFO	Listening on port 34187
+1515807909815	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515807909872	Marionette	DEBUG	Register listener.js for window 2147483649
+1515807909889	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515807909904	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515807909904	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515807909938	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515807909940	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+
+(firefox:14345): GLib-GIO-WARNING **: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1515808061555	geckodriver	INFO	geckodriver 0.19.1
+1515808061558	geckodriver	INFO	Listening on 127.0.0.1:51663
+1515808062710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KdEwc0IQWStF"
+1515808063045	Marionette	INFO	Enabled via --marionette
+1515808063951	Marionette	INFO	Listening on port 38613
+1515808064018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808064076	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808064097	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808064114	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808064114	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808064121	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808064151	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808064200	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 14610, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14610, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 14610, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808202531	geckodriver	INFO	geckodriver 0.19.1
+1515808202536	geckodriver	INFO	Listening on 127.0.0.1:53417
+1515808202674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zxGIRMsXf7Hx"
+1515808203021	Marionette	INFO	Enabled via --marionette
+1515808204010	Marionette	INFO	Listening on port 43579
+1515808204085	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808204149	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808204174	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808204189	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808204189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808204195	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808204225	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808204272	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 14802, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808384257	geckodriver	INFO	geckodriver 0.19.1
+1515808384260	geckodriver	INFO	Listening on 127.0.0.1:34101
+1515808385414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PIfspjtBG7bq"
+1515808385790	Marionette	INFO	Enabled via --marionette
+1515808386741	Marionette	INFO	Listening on port 45583
+1515808386823	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808386879	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808386896	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808386914	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808386914	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808386919	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808386942	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808386993	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15002, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808406425	geckodriver	INFO	geckodriver 0.19.1
+1515808406428	geckodriver	INFO	Listening on 127.0.0.1:44655
+1515808407566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.joxgSmUazaIB"
+1515808407919	Marionette	INFO	Enabled via --marionette
+1515808408835	Marionette	INFO	Listening on port 38445
+1515808408889	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808408951	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808408971	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808409003	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808409003	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808409008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808409031	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808409074	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15144, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15144, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808444569	geckodriver	INFO	geckodriver 0.19.1
+1515808444572	geckodriver	INFO	Listening on 127.0.0.1:37007
+1515808445695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.06hOrON156iz"
+1515808446045	Marionette	INFO	Enabled via --marionette
+1515808446927	Marionette	INFO	Listening on port 33713
+1515808447007	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:15243): GLib-GIO-WARNING **: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1515808447079	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808447100	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808447127	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808447128	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808447134	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808447165	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808447205	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15302, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808477194	geckodriver	INFO	geckodriver 0.19.1
+1515808477197	geckodriver	INFO	Listening on 127.0.0.1:34177
+1515808478356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.G6xkfiR298cb"
+1515808478717	Marionette	INFO	Enabled via --marionette
+1515808479582	Marionette	INFO	Listening on port 39553
+1515808479663	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808479715	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808479733	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808479763	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808479764	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808479769	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808479798	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808479835	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15445, Chrome_ChildThread] WARNING: pipe error (20): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15445, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808560985	geckodriver	INFO	geckodriver 0.19.1
+1515808560989	geckodriver	INFO	Listening on 127.0.0.1:60283
+1515808562118	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xwEnvhd8P920"
+1515808562485	Marionette	INFO	Enabled via --marionette
+1515808563502	Marionette	INFO	Listening on port 46483
+1515808563534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808563597	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808563623	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808563638	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808563638	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808563645	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808563674	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515808563715	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15623, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15623, Chrome_ChildThread] WARNING: pipe error (18): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15623, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808563793	geckodriver	INFO	geckodriver 0.19.1
+1515808563797	geckodriver	INFO	Listening on 127.0.0.1:46659
+1515808564947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NVqhOPzcBQvn"
+1515808565333	Marionette	INFO	Enabled via --marionette
+1515808566207	Marionette	INFO	Listening on port 38561
+1515808566262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808566335	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808566356	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808566389	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808566390	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808566421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/lost"
+1515808566431	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/lost"
+1515808566471	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15744, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15744, Chrome_ChildThread] WARNING: pipe error (20): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15744, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808591920	geckodriver	INFO	geckodriver 0.19.1
+1515808591932	geckodriver	INFO	Listening on 127.0.0.1:48499
+1515808592176	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1gc9jak85Nhl"
+1515808592535	Marionette	INFO	Enabled via --marionette
+1515808593506	Marionette	INFO	Listening on port 37249
+1515808593588	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808593643	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808593672	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808593688	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808593688	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808593692	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515808593715	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+
+(firefox:15837): GLib-GIO-WARNING **: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1515808593759	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 15897, Chrome_ChildThread] WARNING: pipe error (18): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15897, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 15897, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515808593827	geckodriver	INFO	geckodriver 0.19.1
+1515808593830	geckodriver	INFO	Listening on 127.0.0.1:48999
+1515808595049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SX3Ys7Zj59Bx"
+1515808595399	Marionette	INFO	Enabled via --marionette
+1515808596335	Marionette	INFO	Listening on port 33817
+1515808596382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515808596796	Marionette	DEBUG	Register listener.js for window 2147483649
+1515808596810	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515808596828	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515808596828	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515808596854	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/lost/"
+1515808596856	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/lost/"
+1515808596892	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 16025, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16025, Chrome_ChildThread] WARNING: pipe error (18): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16025, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515809119968	geckodriver	INFO	geckodriver 0.19.1
+1515809119971	geckodriver	INFO	Listening on 127.0.0.1:34051
+1515809121119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.azELb1KesDY6"
+1515809121495	Marionette	INFO	Enabled via --marionette
+1515809122406	Marionette	INFO	Listening on port 38183
+1515809122454	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809122519	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809122551	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809122578	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809122579	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809122585	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515809122617	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515809122661	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 16385, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515809122755	geckodriver	INFO	geckodriver 0.19.1
+1515809122759	geckodriver	INFO	Listening on 127.0.0.1:55049
+1515809123979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eFYZL8H1SXCP"
+1515809124345	Marionette	INFO	Enabled via --marionette
+1515809125245	Marionette	INFO	Listening on port 40123
+1515809125295	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809125363	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809125384	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809125405	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809125405	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809125412	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/lost/"
+1515809125435	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/lost/"
+1515809125476	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 16507, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16507, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515809162445	geckodriver	INFO	geckodriver 0.19.1
+1515809162448	geckodriver	INFO	Listening on 127.0.0.1:39415
+1515809163608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YzvPRTgA6Y3k"
+1515809163962	Marionette	INFO	Enabled via --marionette
+1515809164896	Marionette	INFO	Listening on port 33521
+1515809164914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809164966	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809164983	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809164998	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809164999	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809165005	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1515809165035	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515809165075	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 16663, Chrome_ChildThread] WARNING: pipe error (18): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 16663, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515809165151	geckodriver	INFO	geckodriver 0.19.1
+1515809165154	geckodriver	INFO	Listening on 127.0.0.1:33583
+1515809166366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.j5D7n2NaO5wZ"
+1515809166736	Marionette	INFO	Enabled via --marionette
+1515809167646	Marionette	INFO	Listening on port 42075
+1515809167697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809167752	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809167771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809167791	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809167791	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809167800	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/lost/"
+1515809167830	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/lost/"
+1515809167873	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+1515809366638	geckodriver	INFO	geckodriver 0.19.1
+1515809366641	geckodriver	INFO	Listening on 127.0.0.1:48757
+1515809367791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.iZeimkILEFPs"
+1515809368139	Marionette	INFO	Enabled via --marionette
+1515809369098	Marionette	INFO	Listening on port 45593
+1515809369206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809369257	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809369275	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809369288	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809369288	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809369295	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+
+(firefox:16946): GLib-GIO-WARNING **: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1515809369323	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1515809369369	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+Sandbox: Unexpected EOF, op 0 flags 0302 path /dev/shm/org.chromium.3Z2Ubl
+[Child 17003, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1515809369446	geckodriver	INFO	geckodriver 0.19.1
+1515809369449	geckodriver	INFO	Listening on 127.0.0.1:44111
+1515809370670	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.y94IcUiF46oL"
+1515809371022	Marionette	INFO	Enabled via --marionette
+1515809371957	Marionette	INFO	Listening on port 33879
+1515809371985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1515809372053	Marionette	DEBUG	Register listener.js for window 2147483649
+1515809372068	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1515809372083	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1515809372083	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1515809372089	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/lost/"
+1515809372112	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/lost/"
+1515809372144	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+[Child 17128, Chrome_ChildThread] WARNING: pipe error (34): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17128, Chrome_ChildThread] WARNING: pipe error (19): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17128, Chrome_ChildThread] WARNING: pipe error (3): Conexão fechada pela outra ponta: file /build/firefox/src/mozilla-unified/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
